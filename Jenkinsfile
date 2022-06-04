@@ -19,5 +19,11 @@ Pipeline {
                 sh 'sudo systemctl status Jenkins'
             }
         }
+        stage('4-Christianestage'){
+            steps{
+                sh'ps -ef'
+                sh 'sudo systemctl status Jenkins'
+            
+        }
     }
 }
