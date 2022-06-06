@@ -14,13 +14,13 @@ pipeline{
         }
           stage('3-Cathystage'){
             steps{
-                sh'ps -ef'
+                sh 'ps -ef'
                 sh 'sudo systemctl status jenkins'
             }
         }
           stage('4-Christianestage'){
             steps{
-                sh'ps -ef'
+                sh 'ps -ef'
                 sh 'sudo systemctl status jenkins'
             }   
         }
