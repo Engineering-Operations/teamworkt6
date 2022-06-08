@@ -24,5 +24,12 @@ pipeline{
                 sh 'sudo systemctl status jenkins'
             }   
         }
+        stage('5-Georgestage'){
+            steps{
+                sh 'ps -ef'
+                sh 'sudo systemctl status jenkins'
+            }
+        }
+
     }
 }
